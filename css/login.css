@@ -1,0 +1,59 @@
+/* CSS Document */
+
+
+/*-- Top Section --*/
+html, body{
+	margin:0;
+	font-size: 130%;
+	font-family: 'times new man';
+	background: rgba(255,255,255,.8);
+}
+
+
+
+/*-- Generic Section --*/
+
+*{
+	box-sizing:border-box;
+}
+
+.login-page{
+	margin:0px;
+	padding:0px;
+	background-image:url('../images/3.jpg');
+	width:100%;
+	height:520px;
+	background-position:center;
+	background-attachment:fixed;
+	color:#dfdf;
+	}
+
+.login-page .log-area{
+	position:absolute;
+	top:50%;
+	left:50%;
+	height:400px;
+	border:2px solid #ddd;
+	border-radius:30px;
+	
+	transform:translate(-50%,-50%);
+}
+.log-area:before{
+	content:'';
+	background-image:url(../images/opop.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:cover;
+	position:absolute;
+	top:0%;
+	left:50%;
+	width:20%;
+	height:20%;
+	border-radius:100%;
+	transform:translate(-50%,-50%);
+
+}
+input{
+	background-color:transparent!important;
+	color:#fff!important;
+}
