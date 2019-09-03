@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, h1, h2, h3, h4, h5, h6, blockquote, p, form, input, ul, li, div {
+margin-right:200;
+margin-left:100;
+	margin: 0;
+	padding: 0;
+}
+body{
+margin-top:4;
+margin-right:200;
+margin-left:100;
+
+	color:#333;
+	font-family:Tahoma;
+	font-size:12px;
+}
+
+h2{
+	font-size:18px;
+}
+
+h3{
+	font-size:12px;
+	padding:10px 0; 
+}
+
+a:link, a:visited{
+	color:#fff;
+}
+
+a:hover{
+	color:#fff;
+}
+
+#container, #header, #banner, #footer-container{
+	width:981px;
+	margin:0 auto 0 auto;
+}
+
+
+#head{
+	height:60px;
+	background-color:#333;
+	padding-top:0px;
+}
+
+
+}
+
+#menu{
+	padding-top:0px;
+	text-align:right;
+}
+
+#menu li{
+    display:inline;
+	list-style:none;
+	/*margin-left:5px;*/
+	padding:10px;
+}
+
+#menu a{
+	padding:5px;
+	color:#aafbef;
+}
+
+#menu a:link, #menu a:visited{
+	color:#fff;
+}
+
+
+#banner{
+	padding-top:10px;
+}
+
+/* ----------------------- content style -------------------------*/
+
+#top{
+	padding:10px 0 0 0;
+}
+
+#main{
+	float:left;
+	width:620px;
+	padding:0 15px 10px 10px;
+}
+
+#main h2{
+	color:#00cbad;
+	padding:15px 0 15px 0;
+}
+
+#main p{
+	padding:0 0 5px 0;
+}
+.dc{
+
+	background: white url(images/bgm.jpg) repeat-x left top;
+}
+
+#sidebar, .box{
+	float:left;
+        height:300px;
+	width:300px;
+	background-color:#cae1e1;
+	padding:0 0 10px 0;
+	}
+
+.align{
+	margin-right:22px;
+}
+
+#sidebar p, #sidebar h3, .box p{
+	padding:10px 20px 0 20px;
+}
+
+#sidebar h2, .box h2{
+	text-align:center;
+	padding:10px 0 0 0;
+}
+
+#sidebar a:link, #sidebar a :visited{
+	color:#333;
+}
+
+#sidebar a:hover{
+	text-decoration:underline;
+}
+
+
+.box{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.img{
+	text-align:center;
+	padding:0;
+}
+
+.box-image{
+	text-align:center;
+	padding:10px 0 0 0;
+}
+
+.box-link-background{
+	background-color:#323333;
+	color:#aafbef;
+	width:70px;
+	padding:5px 0;
+	margin:10px 20px 10px 20px;
+	text-align:center;
+}
+
+
+/* --------------------------- footer style --------------------------- */
+
+#footer{
+	clear:both;
+	background-color:#323333;
+	color:#fff;
+}
+
+#footer-container{
+	padding:10px 0;
+	margin-top:10px;
+	overflow:hidden;
+}
+
+#address{
+	float:left;
+}
+
+#menu-bottom{
+	float:right;
+	text-align:right;
+}
+
+/* ------------------ inner page style -----------------*/
+
+.inner-list{
+	list-style:circle;
+	padding-left:20px;
+}
+
+.name{
+	font-weight:bold;
+	font-style:italic;
+	text-align:right;
+}
+
+/* ------------------ contact style -----------------*/
+
+form{
+	margin-top:0px;
+}
+
+.form-element{
+	width:350px;
+	height:20px;
+}
+
+.form-area{
+	width:350px;
+	height:200px;
+}
+
